@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color: darkred;
+}
+/* ESTILIZAÇÃO POR TAGS */
+
+ul{
+    background-color: rgb(253, 253, 253);
+    list-style: none;
+}
+li{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(255, 255, 255) ;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Estilização por id */
+#caixa-branca{
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    margin: 20px;
+}
+#caixa-azul{
+    background-color: rgb(218, 75, 99);
+    color: white;
+}
+
+
+/* ESTILIZAÇÃO POR CLASS*/
+.caixinha{
+    background-color: aliceblue;
+    color: brown;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin: 50px 40px 30px 20px;
+}
+footer{
+    color: white;
+}
