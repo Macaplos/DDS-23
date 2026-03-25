@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sei la</title>
+
+    <!-- IMPORTANDO GOOGLE ICONS -->
+    <link 
+     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" 
+     rel="stylesheet">
+
+    <!-- IMPORTAÇÃO  FONT AWESOME -->
+    <link 
+    rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- IMPORTAÇÃO NOSSO CSS -->
+    <link 
+     rel="stylesheet"  
+     href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <nav class="navegacao container">
+            <div class="logo">
+                <i class="fa-regular fa-futbol"></i>
+                CR7 Museum
+            </div>
+            <ul class="menu">
+                <!-- Opção do menu 1 -->
+                <li>
+                    <a href="#inicio">
+                         <i class="fa-solid fa-house"> </i> 
+                         Inicio 
+                    </a>
+                </li>
+                <!-- Opção do menu 2 -->
+                <li>
+                    <a href="#historia">
+                         <i class="fa-solid fa-circle-info"> </i> 
+                         Historia 
+                    </a>
+                </li>
+                <!-- Opção do menu 3 -->
+                <li>
+                    <a href="#carreira">
+                         <i class="fa-solid fa-briefcase"> </i> 
+                         Carreira 
+                    </a>
+                </li>
+                <!-- Opção do menu 4 -->
+                <li>
+                    <a href="#titulos">
+                         <i class="fa-solid fa-trophy"> </i> 
+                         Títulos 
+                    </a>
+                </li>
+                <!-- Opção do menu 5 -->
+                <li>
+                    <a href="#galeria">
+                         <i class="fa-solid fa-photo-film"> </i> 
+                         Galeria 
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <!-- PRIMEIRA SEÇÃO - GRID -->
+        <section id="inicio" class="container hero" >
+            <!-- Parte textual -->
+            <div class="hero-texto">
+                <span class="etiqueta-linha"> O melhor </span>
+                <span class="etiqueta-linha"> POrtugal </span>
+                <span class="etiqueta-linha"> Uma besta enjaulada </span>
+
+                <!-- Titulo principal -->
+                 <h1> Cristiano Ronaldo: hitória, carreira, títulos e legado no futebol</h1>
+            
+
+                <!-- Texto longo -->
+                 <p> Uma página dedicada ao jogador, Cristiano Ronaldo, utilizando todos os tipos de <span class="etiqueta-linha"> display</span> para todos os alunos consutarem depois
+                 </p>
+
+                <!-- Ações com botões  -->
+                 <div class="hero-acoes">
+                    <a href="#carreira" class="botao botao-primario"> Ver carreira </a>
+                    <a href="#titulos" class="botao botao-secundario"> Ver títulos </a>
+                 </div>
+            </div>
+
+            <!-- Parte imagem -->
+            <div class="hero-imagem">
+                <img src="https://assets.goal.com/images/v3/blt086247a68901889e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202025-03-24T073412.548.png?auto=webp&format=pjpg&width=3840&quality=60" 
+                alt="O jogador">
+            </div>
+        </section>
+
+        <!-- FIM PRIMEIRA SEÇÃO - GRID -->
+        <!--  -->
+        <!-- SEGUNDA SEÇÃO - BLOCK -->
+        <section id="historia" class="container secao">
+            <!-- Div pro título e descrição -->
+            <div class="titulo-secao"> 
+                <h2>Historia</h2>
+                <p>
+                    Exemplo de uso do <strong> display: block </strong> qualquer coisa pra frente.
+                </p>
+            </div>
+            <!-- Div pra mostrar o tipo de display -->
+            <div class="bloco-historia">
+                <div class="caixa-block">
+                    <h2>TITULO 1</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+                <div class="caixa-block">
+                    <h2>TITULO 2</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+                <div class="caixa-block">
+                    <h2>TITULO 3</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </div>
+            </div>
+        </section>
+        <!-- FIM SEGUNDA SEÇÃO - BLOCK -->
+
+        <!-- TERCEIRA SEÇÃO - INLINE E INLINE BLOCK -->
+         <section class="container secao">
+            <div class="titulo-secao">
+                <h2> Informação rápida </h2>        
+                <p>Exemplo de <strong> display : inline </strong> e <strong> inline-block</strong></p>
+
+            </div>
+            <div class="linha-exemplo">
+                <p class="texto-exemplo">
+                    Dados em destaque
+                    <span class="item-inline" >Portugal</span>
+                    <span class="item-inline" >O milhor</span>
+                    <span class="item-inline" >Robozão</span>
+                    <span class="item-inline" >SSIIIIIIIIIUUUUUUUU</span>
+                </p>
+            </div>
+            <div class="card-inlineblock">
+                <h3>Origem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-inlineblock">
+                <h3>Perfil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-inlineblock">
+                <h3>Marca</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+         </section>
+    </main>
+     <footer class="rodape">
+        <!-- GRID COM 3 COLUNAS -->
+        <div class="container rodape-grid">
+            <div>
+                <h3> História </h3>
+                <p> Infância na ilha </p>
+                <p> Fomação no Sporting </p>
+                <p> Ascensão internacional</p>
+            </div>
+            <div>
+                <h3> Carreira </h3>
+                <p> Manchester </p>
+                <p> Real Madrid </p>
+                <p> Portugal </p>
+            </div>
+            <div>
+                <h3> Legado </h3>
+                <p> Títulos internacionais </p>
+                <p> Prêmios individuais </p>
+                <p> Recordes históricos </p>
+            </div>
+        </div>
+     </footer>
+
+</body>
+</html>
